@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+    body{
+        margin: 0%;
+    }     
+    li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: #03203C;
+            display: flex;
+            height: 100%;
+            width: 100%;
+
+        }
+        h1{
+            color: #ffffff;
+            text-align: center;
+            margin-top: 0%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            font-weight: 900;
+        }
+        h2{
+            color: #099dff;
+            text-align: center;
+            padding-top: 1%;
+            font-size:1200;  
+        }
+        html{
+            background: #ffffff;
+            font-family: Poppins;
+        }
+        .head{
+            padding-top: -4%;
+            background: linear-gradient(45deg,#1B98F5, #383CC1);
+            padding: 0%;
+        }
+        .ser{
+          font-size: larger;
+        }
+        .sec{
+            margin-left: 4%;
+        }
+        
+        .left, .right, .center {
+      float: left;
+      width: 33%;
+      color: white;
+      padding: 2.1px;
+      height: 150px;
+      font-size: larger;
+      text-align: center;
+   }
+   #contact-form{
+    margin-left: 45%;
+    margin-top: -20%;
+   }
+   
+  
+</style>
+<body>
+    <ul>
+       
+        <li><a class="active" href="../index.html"><strong>Home</strong></a></li>
+        <li><a href="../contact/support.html"><strong>Support</strong></a></li>
+        <li><a href="../services/serv.html"><strong>Services</strong></a></li>
+        <li><a href="../contact/contact.html"><strong>Contact</strong></a></li>
+    
+      </ul>
+
+    <div class="head">
+        <h1><strong>Welcome To LearnCodeOnline</strong></h1>
+        <img src="../img/logo.png" style="width: 60px; height:60px;margin-left:710px;">
+        <h1>A Place For Coders</h1>
+    </div>
+    
+    <h2><strong>Services</strong></h2>
+        <div class="sec">  
+        <img src="../img/contact.png" width= "45%" height="45%">
+    </div>
+    
+    <div id="contact-form">
+        <form action="" method="POST">
+            <label for="FullName"><strong>Name</strong></label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input 
+            type="text" 
+            name="fullname" 
+            placeholder="Full Name" style="border-radius: 6px;
+            background-color: #80c8ff; border:#1B98F5; height: 75%; width:75%; 
+            padding: 15px; font-family: Poppins;color: rgb(0, 0, 0);">
+            <br><br>
+            <label for="Email"><strong>Email</strong></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input 
+            type="text" 
+            name="Email" 
+            placeholder="xyz@gmail.com"
+            style="border-radius: 6px;
+            background-color: #80c8ff; border:#099dff; height: 75%; width:75%;
+            padding: 15px; font-family: Poppins;color: rgb(0, 0, 0);">
+            <br><br>
+            <label for="Phone"><strong>Number</strong></label>
+            <input 
+            type="text" 
+            name="Number" 
+            placeholder="+91 xxxxxxxxxx"
+            style="border-radius: 6px;
+            background-color: #80c8ff; border:#099dff; height: 75%; width:75%;
+            padding: 15px; font-family: Poppins;color: rgb(0, 0, 0);"><br><br>
+           
+            <textarea name="details" style="border-radius: 6px; margin-left: 8%; background-color: #80c8ff; border:#80c8ff;"
+            id=""
+            cols="88"
+            rows="10"
+            >
+            </textarea>
+            <br><br>
+            <label for="languages" style="margin-left: -12%;"><strong>Choose a Language: </strong></label>
+            &nbsp;<select name="cars" id="cars" style="border-radius: 6px;
+            background-color: #80c8ff; border:#099dff; height: 90%; width:75%;
+            padding: 15px; font-family: Poppins;color: rgb(0, 0, 0);">
+                <option value="volvo">C++</option>
+                <option value="saab">Java</option>
+                <option value="opel">Python</option>
+                <option value="audi">Javascript</option>
+            </select>
+            <br><br>
+
+            <p style="margin-left: -14%"><strong>Please select your age:</strong></p>
+                <input type="radio" id="age1" name="age" value="30" style="margin-left: 14%">
+                <label for="age1">0 - 30</label><br>
+                <input type="radio" id="age2" name="age" value="60" style="margin-left: 14%">
+                <label for="age2">31 - 60</label><br>  
+                <input type="radio" id="age3" name="age" value="100" style="margin-left: 14%">
+                <label for="age3">61 - 100</label>
+                <br><br>
+            <button type="submit" style="border-radius: 6px;
+            background-color: #0d3553; border:#099dff; height: 85%; width:80%;
+            padding: 15px; font-family: Poppins;margin-left: 8%; color: #ffffff;">Submit</button>
+        </form>
+    </div>
+    <br><br><br><br>    
+</body>
+</html>
