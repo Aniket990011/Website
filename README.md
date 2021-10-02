@@ -37,5 +37,6 @@ Working with open source project is a rewarding experience that allows you to pr
 ### NOTE:
 * making four (4) meaningful contributions to open source projects will qualify you for prizes
 * Scripts to be added in there respective folder with proper doumentaion.
-
+***
+## THIS REPO IS FOR BEGINNERS TO CONTRIBUTE IN HACKTOBERFEST 2021
 ***
